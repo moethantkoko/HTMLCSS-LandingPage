@@ -1,0 +1,87 @@
+/************* BASE STYLES *************/
+* { box-sizing: border-box; }
+body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
+input, button { font-family: inherit; font-size: inherit; }
+a { color: #faa541; text-decoration: none; }
+ul { padding: 0; margin: 0; list-style: none; }
+nav { padding: 10px 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+/***************************************/
+.container {
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    max-width: 1170px;
+}
+*section {
+    display:flex;
+}
+.flex {
+    display:flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-one {
+    flex:1;
+}
+.align-center {
+    align-items: center;
+}
+.center {
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.btn-default {
+    cursor: auto;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+    color: white;
+    background-color: #faa541;
+}
+.btn-primary {
+    cursor: auto;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+    color: white;
+    background-color: #364147;
+}
+.form-control {
+    display:block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px;
+    border-color: #a0a0a0;
+    color: #8598a2;
+    line-height: 1.4;
+}
+.text-light {
+    font-size: 30px;
+    lighting-color: #a0a0a0;
+    color: #faa541;
+    
+}
+.text-secondary {
+    font-size: 30px;
+    lighting-color: #a0a0a0;
+    color: #faa541;
+}
+.text-primary {
+    font-size: 16px;
+    color: #364147;
+}
