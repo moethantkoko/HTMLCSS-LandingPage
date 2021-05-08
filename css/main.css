@@ -79,26 +79,28 @@ section {
     border-bottom: 1px #a0a0a0;
 }
 .brand {
-    height: 170px;
-    width: 85px;
-    left: -15px;
-    right: 60px;
+    width: 170px;
+    height: 85px;
+    margin-left: -15px;
+    margin-right: 60px;
 }
 .logo {
     max-width: 100%;
     height: auto;
 }
+
 .search-box {
-    height: 330px;
-    width: 30px;
+    width: 330px;
+    height: 30px;
     padding: 6px 12px;
-    border: 1px #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
+
 .search-button {
     background-color: #a0a0a0;
     color: #ffffff;
-    height: 100px;
-    width: 30px;
+    width: 100px;
+    height: 30px;
     border: 0;
     padding: 0;
 }
